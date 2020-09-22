@@ -14,10 +14,10 @@
         <h1 class="header__title">Научиться учиться</h1>
         <p class="header__subtitle">
           Какие современные и эффективные подходы к обучению вы можете
-          использовать в своей жизни?<a class="header__link" href="#">
+          использовать в своей жизни?<a class="header__link page-links" href="#">
             Узнать&rarr;</a>
         </p>
-        <div class="header__square-pic"></div>
+        <div class="header__square-pic rotation"></div>
       </header>
       <main class="content">
         <section class="description">
@@ -76,13 +76,11 @@
           </ul>
         </section>
         <section class="video">
-          <h1 class="section-title">Видео нa TED</h1>
+          <h2 class="section-title">Видео нa TED</h2>
           <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
           <div class="video__iframes">
-            <div class="video__iframe">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/arj7oStGLkU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/5MgBikgcWnY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
+              <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </section>
         <section class="oakley">
@@ -98,7 +96,7 @@
         <section class="feynman">
           <h2 class="feynman__title">Метод Фейнмана</h2>
           <p class="feynman__subtitle">Выучить и не забыть.</p>
-          <a href="#" class="feynman__link">Подробнее &rarr;</a>
+          <a href="#" class="feynman__link page-links">Подробнее &rarr;</a>
         </section>
         <section class="digits">
           <h2 class="section-title">Цифры и факты</h2>
@@ -155,10 +153,10 @@
             <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
             <h4 class="khan__quote-author">Джордж Лукас</h4>
             <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
-            <div class="khan-book-container">
-              <div class="book-pic"></div>
-              <a class="buy-link" href="#">Купить книгу &rarr;</a>
-            </div>
+              <div class="khan__book-container">
+                <img class="khan__book-pic" src="./images_sprint-2/khan-book.jpg" alt="Весь мир - школа">
+                <a class="khan__buy-link page-links" href="#">Купить книгу &rarr;</a>
+              </div>
           </div>
         </section>
         <section class="kaufman">
@@ -224,16 +222,16 @@
               </p>
             </li>
           </ul>
-          <div class="kaufman__triangle"></div>
+          <div class="kaufman__triangle rotation"></div>
         </section>
         <section class="resources">
           <h2 class="section-title" >Полезные ресурсы</h2>
           <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
           <div class="resources__logo-zone">
-            <a class="resources__logo" href="#"><img src="./images_sprint-2/logo/resources-arzamas.svg" alt="arzamas"></a>
-            <a class="resources__logo" href="#"><img src="./images_sprint-2/logo/resources-n1.svg" alt="n1"></a>
-            <a class="resources__logo" href="#"><img src="./images_sprint-2/logo/resources-strelka.svg" alt="strelka"></a>
-            <a class="resources__logo" href="#"><img src="./images_sprint-2/logo/resources-polka.svg" alt="полка"></a>
+            <a class="page-links" href="#"><img class="resources__logo" src="./images_sprint-2/logo/resources-arzamas.svg" alt="arzamas"></a>
+            <a class="page-links" href="#"><img class="resources__logo" src="./images_sprint-2/logo/resources-n1.svg" alt="n1"></a>
+            <a class="page-links" href="#"><img class="resources__logo" src="./images_sprint-2/logo/resources-strelka.svg" alt="strelka"></a>
+            <a class="page-links" href="#"><img class="resources__logo" src="./images_sprint-2/logo/resources-polka.svg" alt="полка"></a>
           </div>
         </section>
       </main>
@@ -248,22 +246,22 @@
           <nav class="footer__column footer__column_content_info">
             <h6 class="footer__column-heading">О Практикуме</h6>
             <ul class="footer__column-links">
-              <li><a href="#" class="footer__column-link">Главная</a></li>
-              <li><a href="#" class="footer__column-link">Концепция</a></li>
-              <li><a href="#" class="footer__column-link">Наставники</a></li>
+              <li><a href="#" class="footer__column-link page-links">Главная</a></li>
+              <li><a href="#" class="footer__column-link page-links">Концепция</a></li>
+              <li><a href="#" class="footer__column-link page-links">Наставники</a></li>
             </ul>
           </nav>
           <nav class="footer__column footer__column_content_social">
             <h6 class="footer__column-heading">Соцети</h6>
             <ul class="footer__column-links">
               <li>
-                <a href="#" class="footer__column-link"><img class="footer__social-icon" src="./images/facebook_color_white.svg" alt="Facebook">Facebook</a>
+                <a href="#" class="footer__column-link page-links"><img class="footer__social-icon" src="./images/facebook_color_white.svg" alt="Facebook">Facebook</a>
               </li>
               <li>
-                <a href="#" class="footer__column-link"><img class="footer__social-icon" src="./images/vk_color_white.svg" alt="ВКонтакте">ВКонтакте</a>
+                <a href="#" class="footer__column-link page-links"><img class="footer__social-icon" src="./images/vk_color_white.svg" alt="ВКонтакте">ВКонтакте</a>
               </li>
               <li>
-                <a href="#" class="footer__column-link"><img class="footer__social-icon" src="./images/instagram_color_white.svg" alt="Instagram">Instagram</a>
+                <a href="#" class="footer__column-link page-links"><img class="footer__social-icon" src="./images/instagram_color_white.svg" alt="Instagram">Instagram</a>
               </li>
             </ul>
           </nav>

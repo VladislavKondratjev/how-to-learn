@@ -1,9 +1,6 @@
 .cards {
   width: 920px;
   display: flex;
-  flex-direction: row;
-  align-items: stretch;
-  justify-content: flex-start;
   flex-wrap: wrap;
   margin-top: 0;
   margin-bottom: 100px;
