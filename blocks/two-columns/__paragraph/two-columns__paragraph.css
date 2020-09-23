@@ -1,3 +1,7 @@
 .two-columns__paragraph {
   margin-top: 0;
 }
+
+.two-columns__paragraph:last-child {
+  margin-bottom: 0;
+}

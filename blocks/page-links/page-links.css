@@ -1,8 +1,9 @@
 .page-links {
   opacity: 1;
+  transition: .5s ease;
 }
 
 .page-links:hover {
   opacity: .5;
-  transition: 1s ease;
+  transition: .5s ease;
 }
