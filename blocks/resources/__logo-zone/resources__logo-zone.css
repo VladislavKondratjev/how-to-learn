@@ -1,8 +1,14 @@
 .resources__logo-zone {
-  width: 1100px;
+  max-width: 1100px;
   margin: 80px auto 217px auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: stretch;
+}
+
+@media screen and (max-width: 1439px) {
+  .resources__logo-zone {
+    flex-direction: column;
+  }
 }

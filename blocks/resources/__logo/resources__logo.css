@@ -3,3 +3,9 @@
   height: 38px;
   display: flex;
 }
+
+@media screen and (max-width: 1439px) {
+  .resources__logo {
+    margin: 10px;
+  }
+}
